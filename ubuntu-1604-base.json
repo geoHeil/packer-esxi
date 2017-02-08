@@ -2,6 +2,10 @@
   "builders": [{
     "name": "ubuntu-1604-base",
     "vm_name": "ubuntu-1604-base",
+    "vnc_port_min": "5900",
+    "vnc_port_max": "5911",
+    "vnc_bind_address": "0.0.0.0",
+    "vnc_disable_password": "true",
     "type": "vmware-iso",
     "guest_os_type": "ubuntu-64",
     "tools_upload_flavor": "linux",
